@@ -1,0 +1,47 @@
+{ 
+	"hero-range": 10000,
+	"item-range": 20000,
+	"spell-range": 30000,
+
+	"artificer-human-range": 30000,
+	"artificer-ork-range": 30000,
+
+	"barbarian-human-range": 30000,
+	"barbarian-ork-range": 30000,
+
+	"bard-human-range": 30000,
+	"bard-ork-range": 30000,
+
+	"bloodhunter-human-range": 30000,
+	"bloodhunter-ork-range": 30000,
+
+	"cleric-human-range": 30000,
+	"cleric-ork-range": 30000,
+
+	"druid-human-range": 30000,
+	"druid-ork-range": 30000,
+
+	"fighter-human-range": 30000,
+	"fighter-ork-range": 30000,
+
+	"monk-human-range": 30000,
+	"monk-ork-range": 30000,
+
+	"paladin-human-range": 30000,
+	"paladin-ork-range": 30000,
+
+	"ranger-human-range": 30000,
+	"ragner-ork-range": 30000,
+
+	"rouge-human-range": 30000,
+	"rouge-ork-range": 30000,
+
+	"sorcerer-human-range": 30000,
+	"sorcerer-ork-range": 30000,
+
+	"warlock-human-range": 30000,
+	"warlock-ork-range": 30000,
+
+	"wizard-human-range": 30000,
+	"wizard-ork-range": 30000
+}
