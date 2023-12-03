@@ -1,0 +1,40 @@
+ManifestFileVersion: 0
+CRC: 765807603
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 53efff9806256adad4110cdbe10fdace
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 35454ccdc257e4a32004d3b6858bebf5
+  IncrementalBuildHash:
+    serializedVersion: 2
+    Hash: 53efff9806256adad4110cdbe10fdace
+HashAppended: 0
+ClassTypes:
+- Class: 1
+  Script: {instanceID: 0}
+- Class: 4
+  Script: {instanceID: 0}
+- Class: 21
+  Script: {instanceID: 0}
+- Class: 23
+  Script: {instanceID: 0}
+- Class: 33
+  Script: {instanceID: 0}
+- Class: 43
+  Script: {instanceID: 0}
+- Class: 48
+  Script: {instanceID: 0}
+- Class: 65
+  Script: {instanceID: 0}
+- Class: 135
+  Script: {instanceID: 0}
+- Class: 136
+  Script: {instanceID: 0}
+SerializeReferenceClassIdentifiers: []
+Assets:
+- Assets/AssetBundles/hero3.prefab
+- Assets/AssetBundles/hero2.prefab
+- Assets/AssetBundles/hero1.prefab
+Dependencies: []
