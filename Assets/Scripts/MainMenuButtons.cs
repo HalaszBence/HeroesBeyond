@@ -1,5 +1,3 @@
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UIElements;
 
@@ -10,14 +8,20 @@ public class MainMenuButtons : MonoBehaviour
     {
         VisualElement root = GetComponent<UIDocument>().rootVisualElement;
         Button playButton = root.Q<Button>("PlayButton");
+        Button clientButton = root.Q<Button>("ClientButton");
         Button exitButton = root.Q<Button>("ExitButton");
 
         playButton.clicked += StartGame;
+        clientButton.clicked += JoinGame;
         exitButton.clicked += Exit;
     }
 
     public void StartGame() {
-        Debug.Log("Starting the game");
+        LobbySystem.Instance.CreateLobby();
+    }
+
+    public void JoinGame() {
+        LobbySystem.Instance.FindGame();
     }
 
     public void Exit() {
