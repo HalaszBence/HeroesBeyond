@@ -5,7 +5,7 @@ using UnityEngine.SceneManagement;
 public class GameLoader : MonoBehaviour
 {
     VisualElement root;
-
+    
     void Start() {
         root = GetComponent<UIDocument>().rootVisualElement;
     }

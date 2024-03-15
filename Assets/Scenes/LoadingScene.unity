@@ -303,6 +303,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 21c5e0314366f8a4fb0b3228f91a426a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  player:
+    cards: []
+    userName: 
+    heroDust: 0
+    id: 0
+    decks: []
 --- !u!1 &1748361192
 GameObject:
   m_ObjectHideFlags: 0

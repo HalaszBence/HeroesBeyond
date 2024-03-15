@@ -2,6 +2,7 @@
     <Style src="project://database/Assets/UI%20Toolkit/UnityThemes/main_menu.uss?fileID=7433441132597879392&amp;guid=6bf7a06ad1c8ca4478e1af593d9e0a39&amp;type=3#main_menu" />
     <ui:VisualElement style="flex-grow: 1;">
         <ui:Button text="Play" parse-escape-sequences="true" display-tooltip-when-elided="true" name="PlayButton" class="button" style="top: 10px; left: 0; align-self: center;" />
-        <ui:Button text="Exit" parse-escape-sequences="true" display-tooltip-when-elided="true" name="ExitButton" class="button" style="align-self: center; top: 60px;" />
+        <ui:Button text="Exit" parse-escape-sequences="true" display-tooltip-when-elided="true" name="ExitButton" class="button" style="align-self: center; top: 150px;" />
+        <ui:Button text="Client" parse-escape-sequences="true" display-tooltip-when-elided="true" name="ClientButton" class="button" style="top: -71px; left: -3px; align-self: center; position: relative; justify-content: center; align-items: center;" />
     </ui:VisualElement>
 </ui:UXML>
